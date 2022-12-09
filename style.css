@@ -1,0 +1,81 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, #FCC8C2, #F5ECCD);
+}
+
+header {
+    background-color: #FF87AB;
+    padding: 40px;
+    margin: 5%;
+    border-radius: 20px;
+}
+section {
+    background-color: #FF87AB;
+    padding: 40px;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+#UpperContent p {
+    font-size: 20px;
+}
+
+#showcase {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #FCC8C2;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    font-size: 20px;
+    background-color: #FF87AB;
+    padding: 40px;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+#slideshow {
+    width: 80%;
+    margin: auto;
+}
+
+#scanvas {
+    width: 100%;
+}
+
+#slideshow p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    #slideshow {
+        width: 100%;
+        margin: auto;
+    }
+    #showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .card {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .card img {
+        width: 100%;
+    }
+}

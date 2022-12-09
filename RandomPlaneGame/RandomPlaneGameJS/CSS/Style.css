@@ -1,0 +1,33 @@
+
+body {
+    margin: 0%;
+    padding: 0;
+    background-color: #aa77cc;
+}
+
+nav {
+    padding: 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #663388;
+}
+
+section {
+    margin: 0;
+    font-size: 18px;
+}
+
+section p {
+    padding: 30px;
+}
+
+#mCanvas {
+    margin: 10px 30px;
+    background-color: #7030a3;
+}
+
+footer {
+    background-color: #663388;
+    padding: 30px;
+    font-size: 25px;
+}
